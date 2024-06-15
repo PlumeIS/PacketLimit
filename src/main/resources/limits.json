@@ -1,0 +1,98 @@
+{
+  "nocom": {
+    "name": "Nocom",
+    "message": "Nocom",
+    "waringWaiting": 0.5,
+    "maxRate": 1.00,
+    "scale": 1,
+    "sensitive": 5,
+    "liveTime": 10,
+    "kickLimit": 1,
+    "banLimit": 0,
+    "minLimit": 5
+  },
+  "interact": {
+    "name": "Interact",
+    "message": "交互限制",
+    "waringWaiting": 5,
+    "maxRate": 60.00,
+    "scale": 0.5,
+    "sensitive": 1,
+    "liveTime": 120,
+    "kickLimit": 5,
+    "banLimit": null,
+    "minLimit": 100
+  },
+  "chat": {
+    "name": "Chat",
+    "message": "聊天限制",
+    "waringWaiting": 3,
+    "maxRate": 10.00,
+    "scale": 1,
+    "sensitive": 1,
+    "liveTime": 60,
+    "kickLimit": 5,
+    "banLimit": null,
+    "minLimit": 20
+  },
+  "book": {
+    "name": "Book",
+    "message": "书本编辑限制",
+    "waringWaiting": 10,
+    "maxRate": 10.00,
+    "scale": 1,
+    "sensitive": 5,
+    "liveTime": 10,
+    "kickLimit": 1,
+    "banLimit": 10,
+    "minLimit": 5
+  },
+  "creativeInventory": {
+    "name": "CreativeInventory",
+    "message": "创造物品栏限制",
+    "waringWaiting": 10,
+    "maxRate": 20.00,
+    "scale": 1,
+    "sensitive": 5,
+    "liveTime": 60,
+    "kickLimit": 5,
+    "banLimit": null,
+    "minLimit": 10
+  },
+  "containerClick": {
+    "name": "ContainerClick",
+    "message": "容器内容点击限制",
+    "waringWaiting": 10,
+    "maxRate": 30.00,
+    "scale": 1,
+    "sensitive": 5,
+    "liveTime": 10,
+    "kickLimit": 1,
+    "banLimit": null,
+    "minLimit": 10
+  },
+  "container": {
+    "name": "Container",
+    "message": "容器点击限制",
+    "waringWaiting": 10,
+    "maxRate": 20.00,
+    "scale": 1,
+    "sensitive": 5,
+    "liveTime": 10,
+    "kickLimit": 1,
+    "banLimit": null,
+    "minLimit": 10
+  },
+  "unfriendlyMove": {
+    "name": "UnfriendlyMove",
+    "message": "非法移动限制",
+    "waringWaiting": 10,
+    "maxRate": 10.00,
+    "scale": 1,
+    "sensitive": 1,
+    "liveTime": 1,
+    "kickLimit": 1,
+    "banLimit": null,
+    "minLimit": 10
+  }
+}

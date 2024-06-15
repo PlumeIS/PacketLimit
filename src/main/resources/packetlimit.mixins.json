@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "xyz.plumc.packetlimit.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "PacketLimit.refmap.json",
+  "mixins": [
+    "ConnectionMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
